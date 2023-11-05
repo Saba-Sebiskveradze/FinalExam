@@ -31,7 +31,10 @@ header {
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-
+}
+/* hover */
+.header_li:hover{
+    border-bottom: 2px solid #05BCCA;
 }
 
 .guitar_logo {
@@ -61,7 +64,11 @@ header {
     font-size: 24px;
     color: #05BCCA;
 }
+/* hover */
+.fa-magnifying-glass:hover{
+    font-size: 30px;
 
+}
 .lan_val {
     color: #A1C3C9;
     font-family: Inter;
@@ -72,6 +79,9 @@ header {
 .fa-chevron-down{
     font-size: 13px;
     color: #05BCCA;
+}
+.fa-chevron-down:hover{
+    font-size: 20px;
 }
 .user{
     color: #05BCCA;
@@ -85,6 +95,10 @@ header {
     border-radius: 8px;
     border: 2px solid #05BCCA;
 }
+.user:hover{
+    background-color: #05BCCA;
+    color: #012426;
+}
 .cart{
     color: #05BCCA;
     font-size: 24px;
@@ -96,4 +110,8 @@ header {
     justify-content: center;
     border-radius: 8px;
     border: 2px solid #05BCCA;
+}
+.cart:hover{
+    background-color: #05BCCA;
+    color: #012426;
 }
