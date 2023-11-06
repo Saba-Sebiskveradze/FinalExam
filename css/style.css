@@ -12,6 +12,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
     top: 0;
+    z-index: 1;
     padding: 16px calc(94 / 1440 * 100%);
     background-color: #012426;
     display: flex;
@@ -162,21 +163,23 @@ header {
     width: 100%;
     height: 100%;
 }
-.section2_div{
+
+.section2_div {
     position: absolute;
     top: 72px;
-    left: 546px;
+    left: calc(546 / 1440 * 100%);
     display: flex;
     align-items: center;
     column-gap: 24px;
 }
+
 .new_collection {
     color: #FFF;
     font-family: Inter;
     font-size: 32px;
     font-weight: 400;
     line-height: 36px;
-    
+
 }
 
 .collection {
@@ -188,10 +191,10 @@ header {
     border-radius: 4px;
     background-color: #C46A2B;
     color: #FFF;
-    
+
 }
 
-.fa-chevron-left {
+.section2_left {
     padding: 20px;
     border-radius: 4px;
     background: #C46A2B;
@@ -201,7 +204,7 @@ header {
     color: #FFF;
 }
 
-.fa-chevron-right {
+.section2_right {
     padding: 20px;
     border-radius: 4px;
     background: #C46A2B;
@@ -210,13 +213,180 @@ header {
     bottom: 204px;
     color: #FFF;
 }
+
 /*  hovers */
-.fa-arrow-right:hover{
+.fa-arrow-right:hover {
     color: #05BCCA;
 }
-.fa-chevron-right:hover{
+
+.section2_right:hover {
     color: #05BCCA;
 }
-.fa-chevron-left:hover{
+
+.section2_left:hover {
     color: #05BCCA;
+}
+
+/* section3 */
+.section3 {
+    display: flex;
+    padding: 96px 306px;
+    background-color: #012426;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section3_article {
+    width: 404px;
+    height: 240px;
+    position: relative;
+}
+
+.section3_guitar {
+    width: 100%;
+    height: 100%;
+}
+
+.section3_p {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+/* section4 */
+.section4 {
+    display: flex;
+    padding: 96px 26px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 64px;
+    background-color: #1A1A1A;
+}
+
+.popular {
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+}
+.popular::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 187.267px;
+    height: 2px;
+    background-color: #05BCCA; 
+  }
+
+.section4_div {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.section4_chevron {
+    padding: 8px;
+    border-radius: 8px;
+    color: #FFF;
+    border: 2px solid #05BCCA;
+}
+
+.section4_chevron:hover {
+    stroke-width: 2px;
+    stroke: #05BCCA;
+    filter: drop-shadow(0px 0px 8px #05BCCA);
+}
+/* cards */
+
+.section4_article {
+    display: flex;
+    width: 298px;
+    padding: 8px 8px 16px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 16px;
+    background-color: #2C4246;
+}
+
+.section4_article:hover {
+    box-shadow: 0px 0px 8px 4px rgba(5, 188, 202, 0.80);
+}
+
+.section4_guitar {
+    width: 100%;
+    height: 290px;
+}
+
+.section4_p {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.review_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 73px;
+}
+
+.star_review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.star_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.review {
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.fa-star {
+    font-size: 16px;
+    color: #C46A2B;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.fa-dollar-sign {
+    font-size: 16px;
+    color: #05BCCA;
+}
+
+.dollar {
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
 }
