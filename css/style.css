@@ -315,7 +315,7 @@ header {
 
 /* cards */
 
-.section4_article {
+.card {
     display: flex;
     width: 298px;
     padding: 8px 8px 16px 8px;
@@ -325,7 +325,7 @@ header {
     background-color: #2C4246;
 }
 
-.section4_article:hover {
+.card:hover {
     box-shadow: 0px 0px 8px 4px rgba(5, 188, 202, 0.80);
 }
 
@@ -334,7 +334,7 @@ header {
     height: 290px;
 }
 
-.section4_p {
+.card_p {
     color: #D9D9D9;
     font-family: Inter;
     font-size: 16px;
@@ -670,7 +670,8 @@ footer {
     font-size: 20px;
     color: #D9D9D9;
 }
-.fa-copyright:hover{
+
+.fa-copyright:hover {
     color: #05BCCA;
 }
 
@@ -682,8 +683,139 @@ footer {
     font-weight: 400;
     line-height: 24px;
 }
+
 /* catalog.html */
-.electric{
+.electric {
     background-color: #A1C3C9;
     color: #2C4246;
+}
+
+.section_7 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    padding: 96px 94px;
+    background-color: #012426;
+}
+
+.filter_search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.filteri {
+    width: 32px;
+    height: 32px;
+}
+
+.filteri:hover {
+    width: 42px;
+    height: 42px;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.filter_p {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.best_selling {
+    display: flex;
+    width: 160px;
+    height: 32px;
+    padding: 4px 8px;
+    align-items: center;
+    column-gap: 33px;
+    border-radius: 4px;
+    background: #A1C3C9;
+}
+
+.best_selling_p {
+    color: #2C4246;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.chevron_catalog {
+    font-size: 24px;
+    color: #2C4246;
+}
+
+/* card */
+.card2 {
+    padding: 0;
+}
+
+.card2_div {
+    padding: 0 8px 16px 8px;
+}
+
+.section7_cards {
+    display: flex;
+    width: 1252px;
+    height: 1720px;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+
+.button_article {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    margin: auto;
+}
+
+.previous_next {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    border-radius: 8px;
+    background-color: #C46A2B;
+}
+
+.previous {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.pages {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.chevron_buttons{
+    font-size: 24px;
+    color: #D9D9D9;
+}
+.chevron_buttons:hover{
+    color: #05BCCA;
 }
