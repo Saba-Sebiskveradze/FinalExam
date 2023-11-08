@@ -521,7 +521,8 @@ header {
     align-items: center;
     row-gap: 40px;
     position: absolute;
-    left: 480px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 107px;
 }
 
@@ -574,4 +575,115 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 19px;
+}
+
+.email_button:hover {
+    background: #FFF;
+    color: #05BCCA;
+}
+
+/* footer */
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #2C4246;
+    padding: 48px 306px 152px 306px;
+    position: relative;
+}
+
+.footer_main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+
+.footer_h2 {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.list_p1 {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.list_p2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+}
+
+.social_icons {
+    font-size: 32px;
+    color: #D9D9D9;
+}
+
+.fa-square-facebook:hover {
+    color: blue;
+}
+
+.fa-square-instagram:hover {
+    color: purple;
+}
+
+.fa-square-whatsapp:hover {
+    color: green;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 64px;
+}
+
+.fa-copyright {
+    font-size: 20px;
+    color: #D9D9D9;
+}
+.fa-copyright:hover{
+    color: #05BCCA;
+}
+
+.copyright_p {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* catalog.html */
+.electric{
+    background-color: #A1C3C9;
+    color: #2C4246;
 }
