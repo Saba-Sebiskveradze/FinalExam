@@ -812,10 +812,97 @@ footer {
     font-weight: 400;
     line-height: 24px;
 }
-.chevron_buttons{
+
+.chevron_buttons {
     font-size: 24px;
     color: #D9D9D9;
 }
-.chevron_buttons:hover{
+
+.chevron_buttons:hover {
     color: #05BCCA;
+}
+
+/* contact html */
+.social_div {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 16px;
+}
+
+.social_icons2 {
+    font-size: 32px;
+    color: #05BCCA;
+}
+
+.map {
+    width: 286px;
+    height: 151px;
+}
+
+.section8_div3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.section8_form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24pc;
+}
+
+.article_form8 {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.section8_div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+}
+
+.section8_div2 {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 40px;
+}
+
+.section8_article1 {
+    display: flex;
+    padding: 35px 40px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 228px;
+    background-color: #2C4246;
+}
+.section8_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 24px;
+}
+.section8_mail{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.section8_mail{
+    height: 720px;
+    position: relative;
+}
+.section8_guitar{
+    width: 100%;
+    height: 100%;
+}
+.section8_div1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    position: absolute;
+    left: 730px;
+    top: 96px;
 }
