@@ -1,0 +1,25 @@
+@media (max-width: 713px){
+    .third_responsive{
+        visibility: hidden;
+    }
+    .filter_p{
+        display: none;
+    }
+    .best_selling_p{
+        display: none;
+    }
+    .best_selling{
+        width: 40px;
+    }
+    
+    .fa-magnifying-glass{
+        font-size: 32px;
+    }
+    .user{
+        width: 32px;
+        height: 32px;    }
+    .cart{
+        width: 32px;
+        height: 32px;    }
+    
+}

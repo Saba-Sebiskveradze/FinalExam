@@ -1,0 +1,12 @@
+@media (max-width: 1030px) {
+    .second_responsive {
+        visibility: hidden;
+    }
+
+    .section3_guitar {
+        width: 330px;
+        height: 240px;
+    }
+    
+
+}

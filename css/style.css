@@ -2,15 +2,18 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
+    /* padding-top: 97.6px; */
+    position: relative;
+    
 }
 
 /* header */
 header {
-    position: fixed;
+    /* position: fixed;
     max-width: inherit;
     width: inherit;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
     top: 0;
     z-index: 1;
     padding: 16px calc(94 / 1440 * 100%);
@@ -20,6 +23,18 @@ header {
     justify-content: space-between;
     border-bottom: 2px solid #05BCCA;
 }
+.fa-bars{
+    display: none;
+    color: #05BCCA;
+    font-size: 32px;
+}
+.burger,
+.fa-xmark {
+    display: none;
+    font-size: 40px;
+    color: #05BCCA;
+}
+
 
 /* nav */
 .header_ul {
@@ -69,6 +84,8 @@ header {
 .guitar_logo {
     width: 64px;
     height: 64px;
+    
+
 }
 
 /* third div */
@@ -157,13 +174,16 @@ header {
 
 /* section1 */
 .types {
-    top: 200px;
     display: flex;
-    margin-top: 97.6px;
     padding: 36px calc(444 / 1440 * 100%);
     justify-content: center;
     align-items: center;
     background-color: #1A1A1A;
+    /* position: relative; */
+
+    
+
+
 }
 
 .article_types {
@@ -181,8 +201,8 @@ header {
 
 /* section2 */
 .section2 {
-    position: relative;
     height: 480px;
+    position: relative;
 }
 
 .guitar_cover {
@@ -255,7 +275,7 @@ header {
 
 /* section3 */
 .section3 {
-    padding: 96px calc(306 / 1440 * 100%);
+    padding: 96px 306px;
     background-color: #012426;
 
 }
@@ -324,6 +344,7 @@ header {
     justify-content: center;
     align-items: center;
     column-gap: 20px;
+   
 }
 
 .section4_chevron {
@@ -433,6 +454,7 @@ header {
     padding: 96px 94px;
     row-gap: 72px;
     background-color: #012426;
+    
 }
 
 .news {
@@ -615,8 +637,10 @@ footer {
     justify-content: space-between;
     background-color: #2C4246;
     padding: 48px 306px 152px 306px;
+    
     position: relative;
 }
+
 
 .footer_main {
     display: flex;
@@ -940,8 +964,6 @@ footer {
 .section_8 {
     position: relative;
     height: 720px;
-    top: 98px;
-    margin-bottom: 98px;
 }
 
 .section8_div1 {
