@@ -1,4 +1,4 @@
-@media (max-width: 713px){
+@media (max-width: 733px){
     .third_responsive{
         visibility: hidden;
     }
@@ -21,5 +21,43 @@
     .cart{
         width: 32px;
         height: 32px;    }
+
+    /* section2     */
+    .section2_left{
+        display: none;
+    }
+    .section2_right{
+        display: none;
+    }
+    .new_collection{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    /* section3 */
+    .section3{
+        padding:32px 8px;
+    }
+    .section3_article {
+        width: 170px;
+        height: 160px;
+    }
+    .section3_p{
+        font-size: 16px;
+        line-height: 24px;
+    }
     
+}
+@media (max-width: 545px){
+    /* section1 */
+    .article_types{
+        padding: 8px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* section2 */
+    .new_collection{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
 }

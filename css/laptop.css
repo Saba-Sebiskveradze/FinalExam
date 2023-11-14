@@ -43,6 +43,11 @@
 
 }
 @media (max-width: 1253px){
+    
+    
+    .section3{
+        padding:96px 98px;
+    }
     .section4_div{
         overflow-y: hidden;
         overflow-x: scroll;   
@@ -50,9 +55,6 @@
     .section5_div{
         overflow-y: hidden;
         overflow-x: scroll;
-    }
-    .section3{
-        padding:96px 98px;
     }
     .footer{
         padding: 48px 98px 152px 98px;

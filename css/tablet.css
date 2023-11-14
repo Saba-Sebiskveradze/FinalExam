@@ -2,8 +2,11 @@
     .second_responsive {
         visibility: hidden;
     }
-
-    .section3_guitar {
+    /* section3 */
+    .section3{
+        padding:48px 32px;
+    }
+    .section3_article {
         width: 330px;
         height: 240px;
     }
