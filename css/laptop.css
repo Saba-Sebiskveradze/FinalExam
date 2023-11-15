@@ -6,18 +6,21 @@
         left: -100%;
         z-index: 1;
         background-color: #05BCCA;
-        width: 50%;
         transition: .5s linear;
-        height: 221px;
-        width: 200px;
+        padding: 16px;
+        
 
     }
-
+    .header_section_div{
+        display: flex;
+        column-gap: 32px;
+        margin-top: 40px;
+        
+    }
     .header_ul {
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        height: 180px;
+        row-gap: 8px;
+        
     }
 
     .header_li {

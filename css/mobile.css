@@ -29,8 +29,11 @@
         height: 32px;
     }
     /* header */
-    .header{
-        
+    .header_div3{
+        column-gap: 16px;
+    }
+    .header_div3_2{
+        column-gap: 16px;
     }
     .fa-magnifying-glass{
         font-size: 32px;

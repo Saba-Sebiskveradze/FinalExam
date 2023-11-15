@@ -5,12 +5,12 @@
     border: 5px solid red;
     padding-top: 97.6px;
 
-    
+
 }
 
 /* header */
 header {
-    
+    height: 96.7px;
     max-width: inherit;
     width: inherit;
     position: fixed;
@@ -25,11 +25,13 @@ header {
     justify-content: space-between;
     border-bottom: 2px solid #05BCCA;
 }
-.fa-bars{
+
+.fa-bars {
     display: none;
     color: #05BCCA;
     font-size: 32px;
 }
+
 .burger,
 .fa-xmark {
     display: none;
@@ -42,6 +44,28 @@ header {
 .header_ul {
     display: flex;
     column-gap: 72px;
+}
+
+.header_section_div {
+    display: none;
+}
+.nav_chevron{
+    font-size: 24px;
+    color: #2C4246;
+}
+.lan_val2{
+    color: #2C4246;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+.header_section2 {
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+    
 }
 
 .header_li {
@@ -88,6 +112,10 @@ header {
     height: 64px;
 
 }
+.guitar_logo1{
+    width: 100%;
+    height: 100%;
+}
 
 /* third div */
 .header_div3 {
@@ -128,12 +156,12 @@ header {
     line-height: 37px;
 }
 
-.fa-chevron-down {
+.nav_chevron1 {
     font-size: 13px;
     color: #05BCCA;
 }
 
-.fa-chevron-down:hover {
+.nav_chevron1:hover {
     font-size: 20px;
 }
 
@@ -284,7 +312,8 @@ header {
     margin: auto;
     column-gap: 20px;
 }
-.section3_article_div1{
+
+.section3_article_div1 {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -360,7 +389,7 @@ header {
     row-gap: 16px;
     background-color: #2C4246;
 
-    
+
 }
 
 .card:hover {
@@ -444,9 +473,9 @@ header {
     align-items: center;
     padding: 96px 98px;
     row-gap: 72px;
-    
+
     background-color: #012426;
-    
+
 }
 
 .news {
@@ -485,8 +514,8 @@ header {
     row-gap: 16px;
     background: rgba(5, 188, 202, 0.60);
     padding: 23px 211px 23px 24px;
-    
-    
+
+
 
 
 }
@@ -637,7 +666,8 @@ footer {
 
 
 }
-.footer_pos{
+
+.footer_pos {
     display: flex;
     column-gap: 223px;
     margin: auto;
