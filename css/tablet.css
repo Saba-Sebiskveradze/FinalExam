@@ -3,12 +3,18 @@
         visibility: hidden;
     }
     /* section3 */
-    .section3{
-        padding:48px 32px;
-    }
+   
     .section3_article {
         width: 330px;
         height: 240px;
+    }
+    
+
+}
+@media (max-width: 800px) {
+    .footer_pos{
+        column-gap: 149px;
+
     }
     
 

@@ -1,80 +1,136 @@
-@media (max-width: 733px){
-    .third_responsive{
+@media (max-width: 733px) {
+    .third_responsive {
         visibility: hidden;
     }
-    .filter_p{
+
+    .filter_p {
         display: none;
     }
-    .best_selling_p{
+
+    .best_selling_p {
         display: none;
     }
-    .best_selling{
+
+    .best_selling {
         width: 40px;
     }
-    
+
+    .fa-magnifying-glass {
+        font-size: 32px;
+    }
+
+    .user {
+        width: 32px;
+        height: 32px;
+    }
+
+    .cart {
+        width: 32px;
+        height: 32px;
+    }
+    /* header */
+    .header{
+        
+    }
     .fa-magnifying-glass{
         font-size: 32px;
     }
     .user{
-        width: 32px;
-        height: 32px;    }
+        font-size: 16px;
+    }
     .cart{
-        width: 32px;
-        height: 32px;    }
+        font-size: 16px;
+    }
+    .guitar_logo{
+        width: 40px;
+        height: 40px;
+
+    }
 
     /* section2     */
-    .section2_left{
+    .section2_left {
         display: none;
     }
-    .section2_right{
+
+    .section2_right {
         display: none;
     }
-    .new_collection{
+
+    .new_collection {
         font-size: 24px;
         line-height: 32px;
     }
+
     /* section3 */
-    .section3{
-        padding:32px 8px;
-    }
+
     .section3_article {
         width: 170px;
         height: 160px;
     }
-    .section3_p{
+
+    
+
+    .section3_p {
         font-size: 16px;
         line-height: 24px;
     }
+
     /* section4 */
-    .popular{
+    .popular {
         font-size: 24px;
         line-height: 32px
     }
-    .popular::after{
+
+    .popular::after {
         width: 156.003px;
     }
+
     /* section6 */
-    .section6_h2{
+    .section6_h2 {
         font-size: 20px;
-        line-height: 32px; 
+        line-height: 32px;
     }
-    .email{
+
+    .email {
         padding-right: 80px;
     }
-    .section6_div{
+
+    .section6_div {
         row-gap: 24px;
     }
-    
+
 }
-@media (max-width: 545px){
+
+@media (max-width: 620px) {
+    .section5_article {
+        width: 298px;
+        height: 320px;
+    }
+
+    .section5_guitar {
+        width: 298px;
+        height: 320px;
+    }
+
+    .footer_pos {
+        flex-direction: column;
+        row-gap: 40px;
+        top: 32px;
+    }
+
+}
+
+@media (max-width: 545px) {
+
     /* section1 */
-    .article_types{
+    .article_types {
         padding: 8px;
         font-size: 16px;
         line-height: 24px;
     }
+
     /* section2 */
-    .new_collection{
+    .new_collection {
         font-size: 14px;
         line-height: 28px;
     }
