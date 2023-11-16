@@ -971,7 +971,6 @@ footer {
     display: flex;
     padding: 35px 40px;
     align-items: center;
-    width: 616px;
     column-gap: 228px;
     background-color: #2C4246;
 }
@@ -1019,8 +1018,8 @@ footer {
     row-gap: 40px;
     position: absolute;
     top: 96px;
-    right: 6.5%;
-    transform: translateX(6.5%);
+    left: 93.4%;
+    transform: translateX(-93.4%);
 
 
 
