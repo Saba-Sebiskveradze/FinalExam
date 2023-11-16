@@ -53,7 +53,7 @@
     }
 
     .first_responsive {
-        visibility: hidden;
+        display: none;
     }
 
 

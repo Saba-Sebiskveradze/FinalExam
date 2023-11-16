@@ -1,11 +1,18 @@
 @media (max-width: 1030px) {
     .second_responsive {
-        visibility: hidden;
+        display: none;
     }
+    .section_7{
+        row-gap: 40px;
+    }
+    .previous{
+        display: none;
+    }
+
     /* section3 */
    
     .section3_article {
-        width: 330px;
+        width: 303px;
         height: 240px;
     }
     
@@ -14,6 +21,10 @@
 @media (max-width: 800px) {
     .footer_pos{
         column-gap: 149px;
+
+    }
+    .section_7{
+        padding: 48px 32px;
 
     }
     
