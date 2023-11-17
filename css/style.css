@@ -55,7 +55,7 @@ header {
 }
 .lan_val2{
     color: #2C4246;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -70,7 +70,7 @@ header {
 
 .header_li {
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;  
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -150,7 +150,7 @@ header {
 
 .lan_val {
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 37px;
@@ -217,7 +217,7 @@ header {
     align-items: center;
     border: 1px solid #05BCCA;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 37px;
@@ -247,7 +247,7 @@ header {
 
 .new_collection {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 36px;
@@ -335,7 +335,7 @@ header {
     top: 16px;
     left: 16px;
     color: #F5F5F5;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 37px;
@@ -354,7 +354,7 @@ header {
 
 .popular {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
@@ -403,7 +403,7 @@ header {
 
 .card_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -433,7 +433,7 @@ header {
 
 .review {
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -459,7 +459,7 @@ header {
 
 .dollar {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;   
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -479,7 +479,7 @@ header {
 
 .news {
     color: #C46A2B;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -526,7 +526,7 @@ header {
 .section5_p {
 
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -536,7 +536,7 @@ header {
 .section5_p2 {
     display: none;
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -546,7 +546,7 @@ header {
 
 .show_more_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -604,7 +604,7 @@ header {
 
 .section6_h2 {
     color: #05BCCA;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -622,7 +622,7 @@ header {
     padding-right: 240px;
     height: 48px;
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -646,7 +646,7 @@ header {
     position: absolute;
     right: 0px;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -686,7 +686,7 @@ footer {
 
 .footer_h2 {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -702,7 +702,7 @@ footer {
 
 .list_p1 {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -711,7 +711,7 @@ footer {
 
 .list_p2 {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -763,7 +763,7 @@ footer {
 
 .copyright_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -815,7 +815,7 @@ footer {
 
 .filter_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -835,7 +835,7 @@ footer {
 
 .best_selling_p {
     color: #2C4246;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -891,7 +891,7 @@ footer {
 
 .previous {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -900,7 +900,7 @@ footer {
 
 .pages {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -935,7 +935,7 @@ footer {
 
 .section8_h2 {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1042,7 +1042,7 @@ footer {
 
 .mail_p {
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1055,8 +1055,7 @@ footer {
 }
 
 .location:hover {
-    /* width: 100px;
-    height: 100px; */
+    
     background-color: #05BCCA;
 }
 
@@ -1068,7 +1067,7 @@ footer {
     border: none;
     background-color: #2C4246;
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1083,7 +1082,7 @@ footer {
     border: none;
     background-color: #2C4246;
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1098,7 +1097,7 @@ footer {
     border: none;
     background-color: #2C4246;
     color: #A1C3C9;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1113,7 +1112,7 @@ footer {
     align-items: center;
     background-color: #C46A2B;
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
