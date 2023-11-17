@@ -138,13 +138,13 @@ header {
 }
 
 .fa-magnifying-glass {
-    font-size: 42px;
+    font-size: 18px;
     color: #05BCCA;
 }
 
 /* hover */
 .fa-magnifying-glass:hover {
-    font-size: 49px;
+    color: #C46A2B;
 
 }
 
@@ -1055,8 +1055,9 @@ footer {
 }
 
 .location:hover {
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
+    background-color: #05BCCA;
 }
 
 .name1 {
