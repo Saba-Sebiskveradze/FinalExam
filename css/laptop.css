@@ -61,12 +61,12 @@
 
 @media (max-width: 1253px) {
 
-
+    /* section3 */
     .section3_div {
         top: 48px;
         bottom: 48px;
     }
-
+    /* section4 */
     .section4_div {
         overflow-y: hidden;
         overflow-x: scroll;
@@ -75,11 +75,11 @@
     .section4_div {
         padding-left: 32px;
     }
-
+    /* section5 */
     .section5 {
         padding-left: 32px;
     }
-
+    /* footer */
     .footer {
         padding: 48px 98px 152px 98px;
 

@@ -2,8 +2,8 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
-    border: 5px solid red;
-    padding-top: 97.6px;
+    /* border: 5px solid red; */
+    padding-top: 96.7px;
 
 
 }
@@ -319,7 +319,7 @@ header {
     row-gap: 20px;
 }
 
-.section3_article {
+.section3_article {    
     width: 404px;
     height: 240px;
     position: relative;
@@ -473,7 +473,6 @@ header {
     align-items: center;
     padding: 96px 0;
     row-gap: 72px;
-
     background-color: #012426;
 
 }
@@ -491,6 +490,7 @@ header {
 /* cards */
 .section5_div {
     display: flex;
+    align-items: center;
     column-gap: 20px;
     width: 100%;
     overflow-x: scroll;
@@ -499,9 +499,7 @@ header {
 }
 
 .section5_article {
-    position: relative;
-
-    
+    position: relative;     
 }
 
 .section5_guitar {
@@ -919,6 +917,33 @@ footer {
 }
 
 /* contact html */
+.section_8 {
+    position: relative;
+    height: 720px;
+}
+.section8_div1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    position: absolute;
+    top: 96px;
+    right: 94px;
+
+}
+
+
+
+.section8_h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 616px;
+}
+
+
 .social_div {
     display: flex;
     flex-direction: row-reverse;
@@ -996,34 +1021,6 @@ footer {
     object-fit: cover;
 }
 
-
-.section8_h2 {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
-    width: 616px;
-}
-
-.section_8 {
-    position: relative;
-    height: 720px;
-}
-
-.section8_div1 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
-    position: absolute;
-    top: 96px;
-    left: 93.4%;
-    transform: translateX(-93.4%);
-
-
-
-}
 
 .fa-envelope {
     font-size: 24px;

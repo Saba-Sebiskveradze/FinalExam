@@ -2,9 +2,7 @@
     .second_responsive {
         display: none;
     }
-    .section_7{
-        row-gap: 40px;
-    }
+    
     .previous{
         display: none;
     }
@@ -12,10 +10,13 @@
     /* section3 */
    
     .section3_article {
-        width: 303px;
+        width: 330px;
         height: 240px;
     }
-    
+    /* section7 */
+    .section_7{
+        row-gap: 40px;
+    }
 
 }
 @media (max-width: 800px) {
